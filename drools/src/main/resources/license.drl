@@ -1,0 +1,10 @@
+package com.company.license
+
+import cn.tac.test.ruleengine.drools.guide.pojo.Applicant
+
+rule "less than 18"
+when
+    $a : Applicant( age < 18 )
+then
+    $a.setValid( false );
+end

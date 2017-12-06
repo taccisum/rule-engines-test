@@ -1,4 +1,4 @@
-package cn.tac.test.rule.easyrules.rule;
+package cn.tac.test.ruleengine.easyrules.rule;
 
 import org.jeasy.rules.api.Facts;
 import org.jeasy.rules.api.Rules;
