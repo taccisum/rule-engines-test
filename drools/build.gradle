@@ -1,0 +1,4 @@
+dependencies {
+    compile group: 'org.kie', name: 'kie-api', version: '7.4.1.Final'
+    compile group: 'org.drools', name: 'drools-compiler', version: '7.4.1.Final'
+}
